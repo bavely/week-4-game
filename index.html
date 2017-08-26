@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollector Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Dosis" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="row text-center">
+		<div class="col-md-4" >
+			<p>You will be given a random number at the start of the game.<br><br>
+			There are four crystals.<br><br> By clicking on a crystal you will add a spacific amount of points to your total score.
+			<br><br>
+			You win the game by matching your total score to random number.
+			<br><br>
+			You lose if your total score goes above the random number. </p>
+		</div>
+		<div class="col-md-6 " >
+			<div>
+				<h1>Crystals Collector</h1>
+			</div>
+			<div>
+				<div>
+				<div id="randomTarget">
+				</div>
+				</div>
+				<div>
+					<h3 id="wins">Wins:</h3>
+					<h3 id="losses">Losses:</h3>
+				</div>
+			</div>
+			<div id="crystals">
+			</div>
+			<div>
+				<h3 id="totalScore">Your total score is:</h3>
+				<div id="score"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--The game.js file-->
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

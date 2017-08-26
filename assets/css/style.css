@@ -1,0 +1,34 @@
+
+body {
+	
+	background-image: url("../images/weather.png");
+}
+
+h1 {
+
+	background-color: #f3c195;
+	height: 56px;
+	padding: 10px;
+	margin: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+#randomTarget , #wins, #losses, #score, #totalScore{
+
+	background-color: #f3c195;
+	width: 200px;
+	position: relative;
+	left: 167px;
+	padding: 10px;
+	font-family: 'Dosis', sans-serif;
+}
+
+p{
+	position: relative;
+	top: 20px;
+	background-color: #f3c195;
+	padding: 10px;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Concert One', cursive;
+}
